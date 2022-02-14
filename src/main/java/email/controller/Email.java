@@ -7,7 +7,6 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.thymeleaf.TemplateEngine;
 
 import javax.mail.internet.MimeMessage;
 import java.io.File;
@@ -24,10 +23,6 @@ public class Email {
     //    构建邮件发送对象
     @Autowired
     JavaMailSender javaMailSender;
-
-    //   构建邮件模板对象
-    @Autowired
-    TemplateEngine templateEngine;
 
     /**
      * 发送简单邮件
