@@ -5,7 +5,7 @@ spring:
     # 发送者邮箱
     username: ooahz@qq.com
     # 邮箱密码（即邮件授权码）
-    password: hrpdzupefkhygjfa
+    password: xxxxxx
     # 邮箱端口号（QQ邮箱为465或587）
     port: 587
     # 默认的邮件编码为UTF-8
