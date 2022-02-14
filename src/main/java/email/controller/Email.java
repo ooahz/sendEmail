@@ -8,11 +8,9 @@ import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.thymeleaf.TemplateEngine;
-import org.thymeleaf.context.Context;
 
 import javax.mail.internet.MimeMessage;
 import java.io.File;
-import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 /**
@@ -21,7 +19,7 @@ import java.util.Date;
  * @desc 邮件发送
  */
 @RestController
-public class email {
+public class Email {
 
     //    构建邮件发送对象
     @Autowired
